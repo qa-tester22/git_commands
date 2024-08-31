@@ -2,7 +2,7 @@
 
 We are here to test you website, app with best practices.
 
-# This is git commands
+## This is git commands
 
 git --version
 git config --global user.name "qa-tester22"
@@ -12,6 +12,9 @@ cd myproject
 git init
 ls
 git status
+
+# Create a file and add the file to Git
+
 git add index.html
 git add --all
 
