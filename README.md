@@ -36,4 +36,7 @@ git help --all - See all possible commands
 git branch hello-devs-images
 git branch
 git checkout hello-devs-images
-
+git add -all
+git commit -m "added new image"
+git checkout main
+git merge hello-devs-images
