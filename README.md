@@ -2,7 +2,7 @@
 
 We are here to test you website, app with best practices.
 
-# This is git commands
+## This is git commands
 
 git --version
 git config --global user.name "qa-tester22"
@@ -12,6 +12,9 @@ cd myproject
 git init
 ls
 git status
+
+# Create a file and add the file to Git
+
 git add index.html
 git add --all
 
@@ -53,38 +56,13 @@ git log origin/main
 git diff origin/main
 
 # merge
-
 git merge origin/main
 git status
 
 git pull // equal fetch + merge
 
 # push
-
 git commit -a -m "Updated index.html. Resized image"
 get status
 git push origin
 
-# branch
-
-git branch
-git branch -a
-git branch -r // remote branches
-git checkout pulling
-git checkout -b update-readme
-git add README.md
-git commit -m "Updated readme for GitHub Branches"
-git push origin pulling
-
-# tag
-
-git tag v1.0.0
-git push origin v1.0.0
-git tag v1.0.5
-git tag v2.0.0
-git push origin --tags
- 
-# page
-
-git remote add github-page https://github.com/qa-tester22/git_commands.git
-git push github-page main
