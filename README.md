@@ -68,7 +68,7 @@ git push origin
 # branch
 
 git branch
-git branch -a
+git branch -a  // to show all branches
 git branch -r // remote branches
 git checkout pulling
 git checkout -b update-readme
