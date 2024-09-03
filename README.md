@@ -40,6 +40,28 @@ git branch hello-devs-images
 git branch
 git checkout hello-devs-images
 git add -all
-git commit -m "added new image"
+git commit -m "added new images"
 git checkout main
 git merge hello-devs-images
+git branch -d hello-devs-images
+
+## GitHub
+
+git remote add origin https://github.com/qa-tester22/git_commands.git
+git push --set-upstream origin main
+git fetch origin
+git status
+git log origin/main
+git diff origin/main
+
+# merge
+git merge origin/main
+git status
+
+git pull // equal fetch + merge
+
+# push
+git commit -a -m "Updated index.html. Resized image"
+get status
+git push origin
+
