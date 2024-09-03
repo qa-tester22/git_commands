@@ -66,3 +66,26 @@ git commit -a -m "Updated index.html. Resized image"
 get status
 git push origin
 
+# branch
+
+git branch
+git branch -a  // to show all branches
+git branch -r // remote branches
+git checkout pulling
+git checkout -b update-readme
+git add README.md
+git commit -m "Updated readme for GitHub Branches"
+git push origin pulling
+
+# tag
+
+git tag v1.0.0
+git push origin v1.0.0
+git tag v1.0.5
+git tag v2.0.0
+git push origin --tags
+ 
+# page
+
+git remote add github-page https://github.com/qa-tester22/git_commands.git
+git push github-page main
