@@ -37,6 +37,8 @@ git help --all - See all possible commands
 
 # If you find yourself stuck in the list view, SHIFT + G to jump the end of the list, then q to exit the view.
 
+# branch 
+
 git branch hello-devs-images
 git branch
 git checkout hello-devs-images
