@@ -105,6 +105,7 @@ ls
 cd git_clone_folder
 git status
 git log
+
 git remote -v
 git remote rename origin upstream
 git remote -v
