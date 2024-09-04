@@ -97,3 +97,20 @@ git tag -a v1.6.0 commit_number
 
 git remote add github-page https://github.com/qa-tester22/git_commands.git
 git push github-page main
+
+# clone repository
+
+git clone https://github.com/qa-tester22/git_commands.git git_clone_folder
+ls
+cd git_clone_folder
+git status
+git log
+
+git remote -v
+git remote rename origin upstream
+git remote -v
+git remote add origin https://github.com/qa-tester22/git_commands.githab.io.git
+git remote -v
+
+git push origin
+ 
